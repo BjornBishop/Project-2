@@ -18,14 +18,36 @@ body {
     height: 40px;
     padding: 5px;
 }
+.weapon-title {
+    text-align: center;
+}
 
 /*styling for the player can go here*/
-.player {
-    text-align: center;
+.player{
+    display: flex;
+    justify-content: center; /* horizontally center the child elements */
+    align-items: center; /* vertically center the child elements*/
+}
+
+.player .myOptions {
+    max-width: 25%;
+    margin: 10px;
+    ;
+}
+.weapon-images {
+    height: 70px; /* force the weapon sizes to be consistent*/
 }
 /*styling the for the computer player can go here*/
 .computerPlayer {
     text-align: center;
+}
+
+.computerPlayer .computerOptions {
+    max-width: 25%;
+    margin: 10px;
+}
+.comWeapon-options {
+    height: 70px; /*Forcing computer player weapon size to match that of the player*/
 }
 /*styling for the battleground can go here*/
 .battle-ground {

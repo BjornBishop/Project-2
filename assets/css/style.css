@@ -27,6 +27,11 @@ body {
 .computerPlayer {
     text-align: center;
 }
+/*styling for the battleground can go here*/
+.battle-ground {
+    text-align: center;
+}
+
 /*Background styling can go here*/
 
 /**/ 

@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: center; /* horizontally center the child elements */
     align-items: center; /* vertically center the child elements*/
+    padding-bottom: 20px;
 }
 
 .player .myOptions {
@@ -39,7 +40,10 @@ body {
 }
 /*styling the for the computer player can go here*/
 .computerPlayer {
-    text-align: center;
+    display: flex;
+    justify-content: center; /* horizontally center the child elements */
+    align-items: center; /* vertically center the child elements*/
+    padding-top: 20px;
 }
 
 .computerPlayer .computerOptions {

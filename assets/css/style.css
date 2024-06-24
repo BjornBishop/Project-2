@@ -12,11 +12,21 @@ body {
 .heading {
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    text-align: center;
 }
+.logo {
+    height: 40px;
+    padding: 5px;
+}
+
 /*styling for the player can go here*/
-
+.player {
+    text-align: center;
+}
 /*styling the for the computer player can go here*/
-
+.computerPlayer {
+    text-align: center;
+}
 /*Background styling can go here*/
 
 /**/ 

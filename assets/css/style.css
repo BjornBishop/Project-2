@@ -1,0 +1,22 @@
+/* lets start here with planning the infrastructure */ 
+
+/*Any styling required for global elements can go here*/
+
+/*Body styling goes here*/
+body {
+    max-height: 100%;
+    border-radius: 5%;
+
+}
+/*styling for the title can go here*/
+.heading {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+/*styling for the player can go here*/
+
+/*styling the for the computer player can go here*/
+
+/*Background styling can go here*/
+
+/**/ 

@@ -20,6 +20,7 @@ body {
 }
 .weapon-title {
     text-align: center;
+    padding-top: 20px;
 }
 
 /*styling for the player can go here*/
@@ -28,11 +29,12 @@ body {
     justify-content: center; /* horizontally center the child elements */
     align-items: center; /* vertically center the child elements*/
     padding-bottom: 20px;
+    border-bottom: 2px black solid;
 }
 
 .player .myOptions {
     max-width: 25%;
-    margin: 10px;
+    margin: 20px;
     ;
 }
 .weapon-images {
@@ -44,11 +46,12 @@ body {
     justify-content: center; /* horizontally center the child elements */
     align-items: center; /* vertically center the child elements*/
     padding-top: 20px;
+    border-top: 2px black solid;
 }
 
-.computerPlayer .computerOptions {
+.computerPlayer .computerOption {
     max-width: 25%;
-    margin: 10px;
+    margin: 20px;
 }
 .comWeapon-options {
     height: 70px; /*Forcing computer player weapon size to match that of the player*/
@@ -60,4 +63,12 @@ body {
 
 /*Background styling can go here*/
 
-/**/ 
+/*Score area goes here*/ 
+.score-title {
+    text-align: center;
+    padding-top: 20px;
+}
+.score {
+    text-align: center;
+    justify-content: center;
+}

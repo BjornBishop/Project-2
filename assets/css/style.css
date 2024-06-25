@@ -8,10 +8,30 @@ body {
     border-radius: 5%;
 
 }
+
+/*Styling for the controls area here*/
+.controls-area {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.control-button {
+    font-size: 30px;
+    margin: 10px;
+}
+.btn--blue {
+    border-color: blue;
+    background-color: blue;
+}
+
+.btn--red {
+    border-color: red;
+    background-color: red;
+}
+
 /*styling for the title can go here*/
 .heading {
-    font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: 50px;
+    font-family: "arial narrow bold";
     text-align: center;
 }
 .logo {
@@ -30,12 +50,16 @@ body {
     align-items: center; /* vertically center the child elements*/
     padding-bottom: 20px;
     border-bottom: 2px black solid;
+    background: lightblue;
 }
 
 .player .myOptions {
     max-width: 25%;
     margin: 20px;
-    ;
+    font-size: 40px;
+    border: 2px black solid;
+    padding: 2px 8px 2px 8px;
+    background-color: white;
 }
 .weapon-images {
     height: 70px; /* force the weapon sizes to be consistent*/
@@ -47,11 +71,16 @@ body {
     align-items: center; /* vertically center the child elements*/
     padding-top: 20px;
     border-top: 2px black solid;
+    background: lightcoral;
 }
 
-.computerPlayer .computerOption {
+.computerPlayer .compOptions {
     max-width: 25%;
     margin: 20px;
+    font-size: 40px;
+    border: 2px black solid;
+    padding: 2px 8px 2px 8px;
+    background-color: white;
 }
 .comWeapon-options {
     height: 70px; /*Forcing computer player weapon size to match that of the player*/
@@ -59,6 +88,7 @@ body {
 /*styling for the battleground can go here*/
 .battle-ground {
     text-align: center;
+    font-size: 50px;
 }
 
 /*Background styling can go here*/

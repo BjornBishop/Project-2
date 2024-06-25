@@ -3,49 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/pictures/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/pictures/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <link rel="icon" type="image/png" sizes="32x32" href="">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock&Meteors</title>
+    <title>What're the Odds?!</title>
 
 </head>
 <body>
 
     <h1 class="heading">
-        Rock, Paper, Scissors
-        <img class="logo" src="assets/pictures/cute-meteor-illustration-for-kids-theme-design-element-png.webp" alt="logo"> 
-        ...Meteor?!
+        <img src="" class="logo" alt="">
+        What Are the 0dds?
     </h1>
 
-    <h2 class="weapon-title">Choose Your Weapon!</h2>
+    <h2 class="weapon-title">Odds or Evens?</h2>
+
+    <div class="controls-area">
+
+        <button data-type="odds" class="control-button" id="oddsButton">
+            <i class="fas fa-plus"></i>
+        </button>
+        <button data-type="evens" class="control-button" id="evensButton">
+            <i class="fas fa-divide"></i>
+        </button>
+
+    </div>
+
 
     <div class="player">
-        <div class="myOptions" id="rock"><img src="assets/pictures/rock-304147_960_720.webp" class="weapon-images" alt="-happy-rock-option"></div>
-        <div class="myOptions" id="paper"><img src="assets/pictures/winking-piece-of-paper-cartoon-9b8f67.webp" class="weapon-images" alt="winking-paper-option"></div>
-        <div class="myOptions" id="scissors"><img src="assets/pictures/ded734058afb08d065830124d3d97a54.png" class="weapon-images" alt="happy-scissors-option"></div>
-        <div class="myOptions" id="Meteor"><img src="assets/pictures/image-meteor-slime-rancher-wikia-fandom-powered-25.png" class="weapon-images" alt="scared-meteor-option"></div>
+        
+        <div class="myOptions" id="myOption1">1</div>
+        <div class="myOptions" id="myOption2">2</div>
+        <div class="myOptions" id="myOption3">3</div>
+
     </div>
 
     <div>
 
         <div class="battle-ground" id="battleGround">
-            <p>------</p>
-            <p>Fight!</p>
-            <p>------</p>
+            <p class="player-slot">0</p>
+            <p>x</p>
+            <p class="comp-slot">0</p>
         </div>
     </div>
 
     <div class="computerPlayer">
         
-        <div class="computerOption" id="meteor"><img src="assets/pictures/image-meteor-slime-rancher-wikia-fandom-powered-25.png" class="comWeapon-options" alt="evil-meteor-option"></div>
-        <div class="computerOption" id="boxCutter"><img src="assets/pictures/ded734058afb08d065830124d3d97a54.png" class="comWeapon-options" alt="evil-scissors-option"></div>
-        <div class="computerOption" id="cardboard"><img src="assets/pictures/winking-piece-of-paper-cartoon-9b8f67.webp" class="comWeapon-options" alt="evil-paper-option"></div>
-        <div class="computerOption" id="stone"><img src="assets/pictures/rock-304147_960_720.webp" class="comWeapon-options" alt="evil-rock-option"></div>
+        <div class="compOptions" id="compOption1">1</div>
+        <div class="compOptions" id="compOption2">2</div>
+        <div class="compOptions" id="compOption3">3</div>
     
     </div>
 
-    <h2 class="weapon-title">Computer Weapons</h2>
+    <h2 class="weapon-title">Computers Options</h2>
 
     <h2 class="score-title">First to 5</h2>
     <div class="score">

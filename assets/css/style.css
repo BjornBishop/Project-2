@@ -19,13 +19,13 @@ body {
     margin: 10px;
 }
 .btn--blue {
-    border-color: blue;
-    background-color: blue;
+    border-color: lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
 }
 
 .btn--red {
-    border-color: red;
-    background-color: red;
+    border-color: lightgreen;
+    background-color: lightgreen;
 }
 
 /*styling for the title can go here*/
@@ -61,8 +61,9 @@ body {
     padding: 2px 8px 2px 8px;
     background-color: white;
 }
-.weapon-images {
-    height: 70px; /* force the weapon sizes to be consistent*/
+.my-result {
+    text-align: center;
+    font-size: 40px;
 }
 /*styling the for the computer player can go here*/
 .computerPlayer {
@@ -85,10 +86,20 @@ body {
 .comWeapon-options {
     height: 70px; /*Forcing computer player weapon size to match that of the player*/
 }
+.comp-result {
+    text-align: center;
+    font-size: 40px;
+}
+
+
 /*styling for the battleground can go here*/
 .battle-ground {
     text-align: center;
     font-size: 50px;
+}
+.multiplyer {
+    padding-right: 10px;
+    text-align: center;
 }
 
 /*Background styling can go here*/

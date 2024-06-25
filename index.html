@@ -23,11 +23,11 @@
 
     <div class="controls-area">
 
-        <button data-type="odds" class="control-button" id="oddsButton">
+        <button data-type="higher" class="control-button btn--blue" id="oddsButton">
             <i class="fas fa-plus"></i>
         </button>
-        <button data-type="evens" class="control-button" id="evensButton">
-            <i class="fas fa-divide"></i>
+        <button data-type="lower" class="control-button btn--red" id="evensButton">
+            <i class="fas fa-minus"></i>
         </button>
 
     </div>
@@ -41,14 +41,19 @@
 
     </div>
 
+    <div class="my-result">x</div>
+
     <div>
 
         <div class="battle-ground" id="battleGround">
             <p class="player-slot">0</p>
-            <p>x</p>
+            <span id="operator">0</span>
+            <span id="operand">0</span>
             <p class="comp-slot">0</p>
         </div>
     </div>
+
+    <div class="comp-result">x</div>
 
     <div class="computerPlayer">
         

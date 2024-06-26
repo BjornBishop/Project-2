@@ -23,15 +23,22 @@ document.addEventListener("DOMContentLoaded", function() {
 //run game loop 
 
 function runGame() {
-//Resets all the board    
-    document.getElementById("player-slot").value = Number(0);
-    document.getElementById("comp-slot").value = Number(0);
-    document.getElementById("operator").value = Number(0);
-    document.getElementById("operand").value = Number(0);
-    document.getElementsByClassName("myOptions").value = Number(0);
-    document.getElementsByClassName("compOptions").value = Number(0);
+    // Resets all the board
+    document.getElementById("player-slot").value = 0;
+    document.getElementById("comp-slot").value = 0;
+    document.getElementById("operator").value = 0;
+    document.getElementById("operand").value = 0;
+    
+    //fetch the current value of the cards
+    let myCard1 = parsInt(document.getElementById("myOption1").value);
+    let myCard2 = parsInt(document.getElementById("myOption2").value);
+    let myCard3 = parsInt(document.getElementById("myOption3").value);
 
-// player and computer numbers are randomly generated at the beginning of the match
+    let compCard1 = parsInt(document.getElementById("compOption1").value);
+    let compCard2 = parsInt(document.getElementById("compOption2").value);
+    let compCard3 = parsInt(document.getElementById("compOption3").value);
+
+    // Player and computer numbers are randomly generated at the beginning of the match
     let num1 = Math.floor(Math.random() * 10) + 1;
     let num2 = Math.floor(Math.random() * 10) + 1;
     let num3 = Math.floor(Math.random() * 10) + 1;
@@ -39,16 +46,7 @@ function runGame() {
     let num5 = Math.floor(Math.random() * 10) + 1;
     let num6 = Math.floor(Math.random() * 10) + 1;
 
-    giveNumbers(num1, num2, num3, num4, num5, num6);
+    
 }
 
-//distribute numbers 
-function giveNumbers(num1, num2, num3, num4, num5, num6) {
-    document.getElementById("myOption1").textContent = num1;
-    document.getElementById("myOption2").textContent = num2;
-    document.getElementById("myOption3").textContent = num3;
-    
-    document.getElementById("compOption1").textContent = num4;
-    document.getElementById("compOption2").textContent = num5;
-    document.getElementById("compOption3").textContent = num6;
-}
+// Distribute numbers to players
